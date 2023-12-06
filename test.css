@@ -1,0 +1,124 @@
+.bg-bluee{
+    background-color: #112c4f;
+     position: sticky;
+     top:0;
+     z-index: 2;
+}
+.b1{
+    position:fixed;
+    top:25%;
+    background-color: rgb(154, 10, 10);
+    right: -54px;
+    rotate: 270deg;
+    color:white;
+    z-index: 2;
+    border-top-left-radius:6px ;
+    border-top-right-radius:6px ;
+}
+.b2{
+    position:fixed;
+    top:45%;
+    background-color: #112c4f;
+    right: -24px;
+    rotate: 270deg;
+    color:white;
+    z-index: 2;
+    border-top-left-radius:6px ;
+    border-top-right-radius:6px ;
+}
+.q::before
+{
+    content: "\f105";
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 13px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.b3{
+    position:fixed;
+    top:63%;
+    background-color: #112c4f;
+    right: -35px;
+    rotate: 270deg;
+    color:white;
+    border-top-left-radius:6px ;
+    border-top-right-radius:6px ;
+    z-index: 2;
+}
+.b1:hover{
+    background-color:  #112c4f;
+}
+.b2:hover{
+    background-color: rgb(154, 10, 10);
+}
+.b3:hover{
+    background-color: rgb(154, 10, 10)
+}
+.b4:hover{
+    background-color: rgb(154, 10, 10)
+}
+.b4{
+    position:fixed;
+    top:82%;
+    background-color: #112c4f;
+    right: -37px;
+    rotate: 270deg;
+    border-top-left-radius:6px ;
+    border-top-right-radius:6px ;
+    color:white;
+    z-index: 2;
+}
+.b5{
+    position:fixed;
+    bottom:0;
+    right:10%;
+    background-color: #112c4f;
+    color:white;
+    z-index: 2;
+    border-top-left-radius:6px ;
+    border-top-right-radius:6px ;
+    
+}
+.bg-blue{
+    background-color: #112c4f;
+}
+.text-blue{
+   color: #112c4f;
+}
+body{
+    padding:0px;
+    margin:0px;
+}
+.bg-grey{
+    background-color: rgb(202, 207, 207);
+}
+.bg-img{
+    background-image: url(image/bg.webp);
+    background-size: cover;
+}
+.barr{
+    border-left:2px solid #112c4f;
+    height: 150px;
+}
+.border-style{
+    border:4px solid  #112c4f;
+}
+.bg-foot{
+    background-image: url(image/e.webp);
+    background-size: cover;
+ }
+.a1{
+    position: relative;
+}
+.a2{
+    position:absolute;
+    top:40px;
+    left:50%;
+    border:2px solid rgb(215, 211, 211);
+}
